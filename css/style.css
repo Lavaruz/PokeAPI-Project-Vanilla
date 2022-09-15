@@ -1,0 +1,21 @@
+body{
+    padding: 5%;
+}
+.pokemon-data{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+.pokemon-item{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: .8s;
+}
+.pokemon-item:hover{
+    transform: translateY(-10px);
+}
